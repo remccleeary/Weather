@@ -13,3 +13,6 @@ This scala library scalaj-http has always been my go to for an http client in sc
 ## [spray-json](https://github.com/spray/spray-json)
 While I had originally tried out the old scala.util.parsing.json in the standard library it is now depricated, so I looked for a third party Json parser as the results from the API calls from DataScienceToolKit and OpenWeatherMap returned Json data (OpenWeatherMap did also support XML but DataScienceToolKit did not). I found a Scala library called spray-json, which seemed to truly embrace Scala's typing system and decided try it out. It was quite intuitive to quickly convert Json AST into Scala classes and types. 
 
+## [config](https://github.com/lightbend/config)
+I used this library for the simple configuration file where the API key and settings are stored.
+
