@@ -1,5 +1,5 @@
 # Documentation
-This file is for the explanation of choices made while coding this project as well as brief information about dependent libraries and APIs.
+This file is for the explanation of choices made while coding this project as well as brief information about dependent libraries and APIs. The code for this project is located in [Weather.scala](./src/main/scala/Weather.scala).
  
 ## [OpenWeatherMap API](https://openweathermap.org/current)
 The  OpenWeatherMap has multiple ways to search for weather at a current location. My first attempt at this problem was to directly query using their search. The issue that quickly arrised from this is that OpenWeatherMap does only stores City Name and [ISO-3116 Country Code](https://www.iso.org/iso-3166-country-codes.html). This caused issues when trying to differentiate from two cities with the same name in the US but in different states e.g. Des Moines, IA and Des Moines, WA. This lead me to search for a way to get a better way to query their API. When I found that you are able to query via zip code I created a zip code look up and tried that out. After a few tests I quickly realized that OpenWeatherMap often returned the wrong information based off of zip code queries. I then remembered a quite great resource that I had found a while back called DataScienceToolKit.
