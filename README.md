@@ -15,7 +15,7 @@ api-keys {
     openWeatherAppAPI="<YourOpenWeatherMapApiKeyGoesHere>"
 }
 ```
-You may also change the units the degrees are by changing the settings in this conf file, imperial->Fahrenheit, metric->Celsius, any other input will default to Kelvin.
+You may also change the units the degrees are displayed in by changing the settings in this conf file, "imperial"->Fahrenheit, "metric"->Celsius, any other input will default to Kelvin.
 
 ```conf
 settings {
