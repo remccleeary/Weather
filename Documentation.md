@@ -22,3 +22,5 @@ For a couple of basic tests I used scalatest. To run tests in sbt simply use the
 ```
 sbt test
 ```
+
+The tests for this file are located in [WeatherTest.scala](./src/test/scala/WeatherTest.scala).
