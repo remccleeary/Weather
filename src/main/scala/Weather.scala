@@ -188,6 +188,8 @@ object Weather {
       case jsonEmptyError:spray.json.JsonParser$ParsingException => println("Empty result from one of our providers, please try again soon.")
 
       case configError:com.typesafe.config.ConfigException$Missing => println("Error in your config file")
+
+      case configParseError:com.typesafe.config.ConfigException$Parse => println("Error parsing your config file, please make sure that it is set up correctly")
     }
   }
 }
