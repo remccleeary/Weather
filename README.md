@@ -43,7 +43,7 @@ Where are you? Chicago IL
 
 The program will then reply back with the longitude and latitude that it found based off of your query, 
 as well as the name that is stored for that location on [OpenWeatherMap](https://www.openweathermap.org) with the current tempurature for that location.
-The name may not be exactly as you but should give you a location close to your original query.
+The name may not be exactly entered as you but should give you a location close to your original query.
 
 ```
 Where are you? Chicago IL
