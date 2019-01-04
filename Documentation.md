@@ -24,3 +24,6 @@ sbt test
 ```
 
 The tests for this file are located in [WeatherTest.scala](./src/test/scala/WeatherTest.scala).
+
+## To Do
+Ideally the DataScienceToolKit API would be hosted on my own server which I may get around to at some point. The Travis CI is failing tests due to its reliance on a valid OpenWeatherMap API key. I see that you can do encrypted environment variables in Travis CI, but was unsure if I should change the WeatherTest.Scala to grab that information from the environment instead of from the application.conf file. 
