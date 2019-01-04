@@ -17,4 +17,8 @@ While I had originally tried out the old scala.util.parsing.json in the standard
 I used this library for the simple configuration file where the API key and settings are stored.
 
 ## [scalatest](http://www.scalatest.org)
-For a couple of basic tests I used scalatest.
+For a couple of basic tests I used scalatest. To run tests in sbt simply use the command
+
+```
+sbt test
+```
