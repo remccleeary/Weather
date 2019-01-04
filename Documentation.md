@@ -16,3 +16,5 @@ While I had originally tried out the old scala.util.parsing.json in the standard
 ## [config](https://github.com/lightbend/config)
 I used this library for the simple configuration file where the API key and settings are stored.
 
+## [scalatest](http://www.scalatest.org)
+For a couple of basic tests I used scalatest.
