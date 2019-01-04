@@ -189,7 +189,6 @@ object Weather {
 
       case configError:com.typesafe.config.ConfigException$Missing => println("Error in your config file")
 
-      case configParseError:com.typesafe.config.ConfigException$Parse => println("Error parsing your config file, please make sure that it is set up correctly")
     }
   }
 }
