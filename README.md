@@ -50,3 +50,6 @@ Where are you? Chicago IL
 Current tempurature for Chicago at latitude=41.850033 longitude=-87.650052:
 41 degrees Fahrenheit
 ```
+
+## Library Dependencies 
+See [Documentation.md](./Documentation.md) for information about APIs and Libraries used.
